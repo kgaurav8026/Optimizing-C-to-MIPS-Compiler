@@ -1,0 +1,31 @@
+{
+    "addiu": {
+      "ALU": 1,
+      "Register File": 2
+    },
+    "sw": {
+      "ALU": 1,
+      "Register File": 2
+    },
+    "addu":{
+      "ALU": 1,
+      "Register File": 2
+    },
+    "nop":{
+      "ALU": 1,
+      "Register File": 2
+    },
+    "lw":{
+      "ALU": 1,
+      "Register File": 2
+    },
+    "li":{
+      "ALU": 1,
+      "Register File": 2
+    },
+    "j":{
+      "ALU": 1,
+      "Register File": 2
+    }
+  }
+  

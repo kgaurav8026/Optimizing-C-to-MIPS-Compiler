@@ -2,8 +2,9 @@ import json
 
 # Define a function to read in the MIPS code from a file
 def read_mips_code():
-    with open('../src/dest.s', 'r') as f:
+    with open('dest.s', 'r') as f:
         mips_code = f.read()
+    # print(mips_code)
     return mips_code
 
 # Define a function to count the frequency of each MIPS instruction
@@ -11,10 +12,11 @@ def read_mips_code():
 
 def count_mips_frequency(mips_code):
     # Load circuit data from JSON file
-    with open('./cycles.json', 'r') as f:
+    with open('cycle.json', 'r') as f:
         cycle_data = json.load(f)
 
     frequency_dict = {}
+    total_cycles = 0
     
     for line in mips_code.split('\n'):
         if line.strip():
@@ -25,12 +27,13 @@ def count_mips_frequency(mips_code):
                 frequency_dict[instruction] = 1
 
             # Calculate power consumed by instruction
-            # if instruction in cycle_data:
-            #     circuit_counts = cycle_data[instruction]
-            #     for circuit, count in circuit_counts.items():
-            #         power_consumed += count * circuit_power[circuit]
 
-    return frequency_dict
+            # print(instruction)
+            if instruction in cycle_data:
+                total_cycles += cycle_data[instruction]
+                # total_cycles += cycle_count
+
+    return frequency_dict, total_cycles
 
 
 # Read in the MIPS code from the file
@@ -38,9 +41,11 @@ mips_code = read_mips_code()
 
 
 # Count the frequency of each MIPS instruction  and total power consumed
-frequency_dict = count_mips_frequency(mips_code)
+frequency_dict, total_cycles = count_mips_frequency(mips_code)
 # Print out the frequency of each MIPS instruction
 for instruction, frequency in frequency_dict.items():
     print(instruction + ': ' + str(frequency))
 #print power consumed
+print()
+print("Total Cycles: ", total_cycles)
 

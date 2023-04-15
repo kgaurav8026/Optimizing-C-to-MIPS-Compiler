@@ -1,22 +1,19 @@
-{
-    "addiu": {
-{       //R type instructions
-     "addu":{      //add unsigned 
+
+{       
+     "addu":{      
       "PC": 1,
       "Adder": 1,
       "Instruction Memory": 1,
       "ALU": 1,
       "Register File": 2
     },
-    "sw": {
-    "and": {        //and
+    "and": {      
       "PC": 1,
       "Adder": 1,
       "Instruction Memory": 1,
       "ALU": 1,
       "Register File": 2
     },
-    "addu":{
     "sub": {
       "PC": 1,
       "Adder": 1,
@@ -24,7 +21,6 @@
       "ALU": 1,
       "Register File": 2
     },
-    "nop":{
     "add": {
       "PC": 1,
       "Adder": 1,
@@ -32,7 +28,6 @@
       "ALU": 1,
       "Register File": 2
     },
-    "lw":{
     "or": {
       "PC": 1,
       "Adder": 1,
@@ -40,30 +35,28 @@
       "ALU": 1,
       "Register File": 2
     },
-    "li":{
-    "slt": {        // set on less than
+    "slt": {      
       "PC": 1,
       "Adder": 1,
       "Instruction Memory": 1,
       "ALU": 1,
       "Register File": 2
     },
-    "j":{
-    "sll": {        //shift left logical
+    "sll": {        
       "PC": 1,
       "Adder": 1,
       "Instruction Memory": 1,
       "ALU": 1,
       "Register File": 2
     },
-    "srl": {        //shift right logical
+    "srl": {       
       "PC": 1,
       "Adder": 1,
       "Instruction Memory": 1,
       "ALU": 1,
       "Register File": 2
-    },                  //I type instructions
-    "addiu": {      //add unsigned immediate
+    },                 
+    "addiu": {      
       "PC": 1,
       "Adder": 1,
       "Instruction Memory": 1,
@@ -72,7 +65,7 @@
       "Data Memory": 1,
       "Sign Extension": 1
     },
-    "sw": {          //store
+    "sw": {         
       "PC": 1,
       "Adder": 1,
       "Instruction Memory": 1,
@@ -85,7 +78,7 @@
       "ALU": 1,
       "Register File": 2
     },
-    "lw":{  //load
+    "lw":{  
       "PC": 1,
       "Adder": 1,
       "Instruction Memory": 1,

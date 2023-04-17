@@ -2,6 +2,12 @@ import json
 circuit_power = {
     "ALU": 2,
     "Register File": 3,
+    "PC": 1,
+    "Left Shift": 1,
+    "Sign Extension": 1,
+    "Instruction Memory": 2,
+    "Data Memory": 3,
+    "Adder": 1
 }
 
 

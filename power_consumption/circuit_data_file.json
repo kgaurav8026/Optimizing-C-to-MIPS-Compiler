@@ -1,31 +1,114 @@
-{
-    "addiu": {
+
+{       
+     "addu":{      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
       "ALU": 1,
       "Register File": 2
     },
-    "sw": {
+    "and": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
       "ALU": 1,
       "Register File": 2
     },
-    "addu":{
+    "sub": {
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
       "ALU": 1,
       "Register File": 2
+    },
+    "add": {
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+    "or": {
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+    "slt": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+    "sll": {        
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+    "srl": {       
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },                 
+    "addiu": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2,
+      "Data Memory": 1,
+      "Sign Extension": 1
+    },
+    "sw": {         
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 1,
+      "Sign Extension": 1,
+      "Data Memory": 1
     },
     "nop":{
       "ALU": 1,
       "Register File": 2
     },
-    "lw":{
+    "lw":{  
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
       "ALU": 1,
-      "Register File": 2
+      "Register File": 2,
+      "Sign Extension": 1,
+      "Data Memory": 1
     },
     "li":{
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
       "ALU": 1,
-      "Register File": 2
+      "Register File": 2,
+      "Sign Extension": 1,
+      "Data Memory": 1
     },
     "j":{
+      "Adder": 1,
+      "Left Shift": 1,
+      "Instruction Memory": 2,
+      "PC": 1
+    },
+    "beq":{
+      "PC": 1,
+      "Adder": 2,
+      "Instruction Memory": 1,
       "ALU": 1,
-      "Register File": 2
+      "Register File": 1,
+      "Left Shift": 1,
+      "Sign Extension": 1
     }
   }
-  

@@ -1,5 +1,96 @@
 
-{       
+{    
+     "mfhi": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "mthi": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "mflo": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "mtlo": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "mult": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "multu": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "div": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "divu": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "xor": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+      "nor": {
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "jalr":{      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "rem":{      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "remu":{      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
      "addu":{      
       "PC": 1,
       "Adder": 1,
@@ -15,6 +106,13 @@
       "Register File": 2
     },
     "sub": {
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+      "subu": {
       "PC": 1,
       "Adder": 1,
       "Instruction Memory": 1,
@@ -42,6 +140,13 @@
       "ALU": 1,
       "Register File": 2
     },
+     "sltu": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
     "sll": {        
       "PC": 1,
       "Adder": 1,
@@ -55,8 +160,90 @@
       "Instruction Memory": 1,
       "ALU": 1,
       "Register File": 2
-    },                 
+    },
+     "sra":{      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "sllv":{      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "srlv":{      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
+     "srav":{      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2
+    },
     "addiu": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2,
+      "Data Memory": 1,
+      "Sign Extension": 1
+    },
+     "addi": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2,
+      "Data Memory": 1,
+      "Sign Extension": 1
+    },
+     "slti": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2,
+      "Data Memory": 1,
+      "Sign Extension": 1
+    },
+     "sltiu": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2,
+      "Data Memory": 1,
+      "Sign Extension": 1
+    },
+     "andi": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2,
+      "Data Memory": 1,
+      "Sign Extension": 1
+    },
+     "ori": {      
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2,
+      "Data Memory": 1,
+      "Sign Extension": 1
+    },
+     "xori": {      
       "PC": 1,
       "Adder": 1,
       "Instruction Memory": 1,
@@ -74,11 +261,74 @@
       "Sign Extension": 1,
       "Data Memory": 1
     },
+     "sb": {         
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 1,
+      "Sign Extension": 1,
+      "Data Memory": 1
+    },
+     "sh": {         
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 1,
+      "Sign Extension": 1,
+      "Data Memory": 1
+    },
     "nop":{
       "ALU": 1,
       "Register File": 2
     },
     "lw":{  
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2,
+      "Sign Extension": 1,
+      "Data Memory": 1
+    },
+     "lb":{  
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2,
+      "Sign Extension": 1,
+      "Data Memory": 1
+    },
+     "lbu":{  
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2,
+      "Sign Extension": 1,
+      "Data Memory": 1
+    },
+     "lh":{  
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2,
+      "Sign Extension": 1,
+      "Data Memory": 1
+    },
+     "lhu":{  
+      "PC": 1,
+      "Adder": 1,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 2,
+      "Sign Extension": 1,
+      "Data Memory": 1
+    },
+     "lui":{  
       "PC": 1,
       "Adder": 1,
       "Instruction Memory": 1,
@@ -102,7 +352,40 @@
       "Instruction Memory": 2,
       "PC": 1
     },
+     "jal":{
+      "Adder": 1,
+      "Left Shift": 1,
+      "Instruction Memory": 2,
+      "PC": 1
+    },
     "beq":{
+      "PC": 1,
+      "Adder": 2,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 1,
+      "Left Shift": 1,
+      "Sign Extension": 1
+    }
+     "bne":{
+      "PC": 1,
+      "Adder": 2,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 1,
+      "Left Shift": 1,
+      "Sign Extension": 1
+    }
+     "blez":{
+      "PC": 1,
+      "Adder": 2,
+      "Instruction Memory": 1,
+      "ALU": 1,
+      "Register File": 1,
+      "Left Shift": 1,
+      "Sign Extension": 1
+    }
+    "bgtz":{
       "PC": 1,
       "Adder": 2,
       "Instruction Memory": 1,

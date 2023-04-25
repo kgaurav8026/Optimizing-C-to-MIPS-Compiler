@@ -1,0 +1,65 @@
+{
+"add":{"write":[1], "read":[2,3]},
+"sub":{"write":[1], "read":[2,3]},
+"addi":{"write":[1], "read":[2]},
+"addu":{"write":[1], "read":[2,3]},
+"subu":{"write":[1], "read":[2,3]},
+"addiu":{"write":[1], "read":[2]},
+"mul":{"write":[1], "read":[2,3]},
+"mult":{"write":[] ,"read":[1,2]},
+"multu":{"write":[] ,"read":[1,2]},
+"div":{"write":[], "read":[1,2]},
+"divu":{"write":[], "read":[1,2]},
+
+"add.s":{"write":[1], "read":[2,3]},
+"add.d":{"write":[6], "read":[7,8]},
+"mtc1":{"write":[2], "read":[1]},
+"mfc1":{"write":[1], "read":[2]},
+
+
+"and":{"write":[1], "read":[2,3]},
+"or":{"write":[1], "read":[2,3]},
+"nor":{"write":[1], "read":[2,3]},
+"andi":{"write":[1], "read":[2]},
+"ori":{"write":[1], "read":[2]},
+"xor":{"write":[1], "read":[2,3]},
+
+"sll":{"write":[1], "read":[2]},
+"srl":{"write":[1], "read":[2]},
+"sra  ":{"write":[1], "read":[2]},
+
+"sb":{"write":[1], "read":[4]},
+"sc":{"write":[1], "read":[4]},
+"sh":{"write":[1], "read":[2]},
+
+"lw":{"write":[1], "read":[4]},
+"sw":{"write":[], "read":[1,4]},
+"la":{"write":[1], "read":[]},
+"li":{"write":[1], "read":[]},
+"lui":{"write":[1], "read":[]},
+"move":{"write":[1], "read":[2]},
+"mfhi":{"write":[1], "read":[]},
+"mflo":{"write":[1], "read":[]},
+
+"beq":{"write":[], "read":[1,2]},
+"bne":{"write":[], "read":[1,2]},
+"bgt":{"write":[], "read":[1,2]},
+"bge":{"write":[], "read":[1,2]},
+"blt":{"write":[], "read":[1,2]},
+"ble":{"write":[], "read":[1,2]},
+"bclt":{"write":[], "read":[1]},
+"bclf":{"write":[], "read":[1]},
+"slt":{"write":[1], "read":[2,3]},
+"slti":{"write":[1], "read":[2]},
+"sltiu":{"write":[1], "read":[2]},
+"sltu":{"write":[1], "read":[2,3]},
+
+"jr":{"write":[0] ,"read":[1]},
+
+"lbu":{"write":[1] ,"read":[4]},  
+"lb":{"write":[1] ,"read":[4]},   
+"lh":{"write":[1] ,"read":[4]},   
+"lhu":{"write":[1] ,"read":[4]},  
+"ll":{"write":[1] ,"read":[4]} 
+
+}

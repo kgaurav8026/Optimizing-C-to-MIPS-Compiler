@@ -1,397 +1,155 @@
-
 {    
      "mfhi": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "power consumption": 4628125
     },
      "mthi": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "power consumption": 4628125
     },
      "mflo": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "power consumption": 4628125
     },
      "mtlo": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+     "power consumption": 4628125
     },
      "mult": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "power consumption": 4628125
     },
      "multu": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "power consumption": 4628125
     },
      "div": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "power consumption": 4628125
     },
      "divu": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "power consumption": 4628125
     },
      "xor": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+       "power consumption": 4628125
     },
       "nor": {
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+       "power consumption": 4628125
     },
      "jalr":{      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+       "power consumption": 4628125
     },
      "rem":{      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+       "power consumption": 4628125
     },
      "remu":{      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "power consumption": 4628125
     },
      "addu":{      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "power consumption": 4628125
     },
     "and": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+     "power consumption": 4628125
     },
     "sub": {
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "power consumption": 4628125
     },
       "subu": {
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
-    },
-    "add": {
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+       "power consumption": 4628125
     },
     "or": {
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "power consumption": 4628125
     },
     "slt": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "power consumption": 4628125
     },
      "sltu": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+       "power consumption": 4628125
     },
     "sll": {        
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+       "power consumption": 4628125
     },
     "srl": {       
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "Power Consumption": 4628125
     },
      "sra":{      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+       "Power Consumption": 4628125
     },
      "sllv":{      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+       "Power Consumption": 4628125
     },
      "srlv":{      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+      "Power Consumption": 4628125
     },
      "srav":{      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2
+       "Power Consumption": 4628125
     },
     "addiu": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Data Memory": 1,
-      "Sign Extension": 1
+      "power consumption": 6528125
     },
      "addi": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Data Memory": 1,
-      "Sign Extension": 1
+       "power consumption": 6528125
+    },
+     "add": {      
+       "power consumption": 6528125
     },
      "slti": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Data Memory": 1,
-      "Sign Extension": 1
+       "power consumption": 6528125
     },
      "sltiu": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Data Memory": 1,
-      "Sign Extension": 1
+       "power consumption": 6528125
     },
      "andi": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Data Memory": 1,
-      "Sign Extension": 1
+       "power consumption": 6528125
     },
      "ori": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Data Memory": 1,
-      "Sign Extension": 1
+       "power consumption": 6528125
     },
      "xori": {      
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Data Memory": 1,
-      "Sign Extension": 1
+       "power consumption": 6528125
     },
     "sw": {         
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 1,
-      "Sign Extension": 1,
-      "Data Memory": 1
+       "power consumption": 5928125
     },
      "sb": {         
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 1,
-      "Sign Extension": 1,
-      "Data Memory": 1
+       "power consumption": 5928125
     },
      "sh": {         
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 1,
-      "Sign Extension": 1,
-      "Data Memory": 1
+       "power consumption": 5928125
     },
     "nop":{
-      "ALU": 1,
-      "Register File": 2
+        "power consumption": 1200000
     },
     "lw":{  
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Sign Extension": 1,
-      "Data Memory": 1
+       "Power Consumption": 6528125
     },
      "lb":{  
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Sign Extension": 1,
-      "Data Memory": 1
+       "Power Consumption": 6528125
     },
      "lbu":{  
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Sign Extension": 1,
-      "Data Memory": 1
+       "Power Consumption": 6528125
     },
      "lh":{  
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Sign Extension": 1,
-      "Data Memory": 1
+      "Power Consumption": 6528125
     },
      "lhu":{  
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Sign Extension": 1,
-      "Data Memory": 1
+       "Power Consumption": 6528125
     },
      "lui":{  
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Sign Extension": 1,
-      "Data Memory": 1
+      "Power Consumption": 6528125
     },
     "li":{
-      "PC": 1,
-      "Adder": 1,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 2,
-      "Sign Extension": 1,
-      "Data Memory": 1
+       "Power Consumption": 6528125
     },
     "j":{
-      "Adder": 1,
-      "Left Shift": 1,
-      "Instruction Memory": 2,
-      "PC": 1
+      "Power Consumption": 5296250
     },
      "jal":{
-      "Adder": 1,
-      "Left Shift": 1,
-      "Instruction Memory": 2,
-      "PC": 1
+      "Power Consumption": 5296250
     },
     "beq":{
-      "PC": 1,
-      "Adder": 2,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 1,
-      "Left Shift": 1,
-      "Sign Extension": 1
-    }
-     "bne":{
-      "PC": 1,
-      "Adder": 2,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 1,
-      "Left Shift": 1,
-      "Sign Extension": 1
-    }
-     "blez":{
-      "PC": 1,
-      "Adder": 2,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 1,
-      "Left Shift": 1,
-      "Sign Extension": 1
-    }
+       "Power Consumption": 2660940
+    },
+    "bne":{
+       "Power Consumption": 2660940
+    },
+    "blez":{
+      "Power Consumption": 2660940
+    },
     "bgtz":{
-      "PC": 1,
-      "Adder": 2,
-      "Instruction Memory": 1,
-      "ALU": 1,
-      "Register File": 1,
-      "Left Shift": 1,
-      "Sign Extension": 1
+      "Power Consumption": 2660940
     }
   }

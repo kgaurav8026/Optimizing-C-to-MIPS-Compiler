@@ -1,0 +1,158 @@
+{    
+     "mfhi": {      
+      "Power Consumption": 4628125
+    },
+     "mthi": {      
+      "Power Consumption": 4628125
+    },
+     "mflo": {      
+      "Power Consumption": 4628125
+    },
+     "mtlo": {      
+     "Power Consumption": 4628125
+    },
+     "mult": {      
+      "Power Consumption": 4628125
+    },
+     "multu": {      
+      "Power Consumption": 4628125
+    },
+     "div": {      
+      "Power Consumption": 4628125
+    },
+     "divu": {      
+      "Power Consumption": 4628125
+    },
+     "xor": {      
+       "Power Consumption": 4628125
+    },
+      "nor": {
+       "Power Consumption": 4628125
+    },
+     "jalr":{      
+       "Power Consumption": 4628125
+    },
+     "rem":{      
+       "Power Consumption": 4628125
+    },
+     "remu":{      
+      "Power Consumption": 4628125
+    },
+     "addu":{      
+      "Power Consumption": 4628125
+    },
+    "and": {      
+     "Power Consumption": 4628125
+    },
+    "sub": {
+      "Power Consumption": 4628125
+    },
+      "subu": {
+       "Power Consumption": 4628125
+    },
+    "or": {
+      "Power Consumption": 4628125
+    },
+    "slt": {      
+      "Power Consumption": 4628125
+    },
+     "sltu": {      
+       "Power Consumption": 4628125
+    },
+    "sll": {        
+       "Power Consumption": 4628125
+    },
+    "srl": {       
+      "Power Consumption": 4628125
+    },
+     "sra":{      
+       "Power Consumption": 4628125
+    },
+     "sllv":{      
+       "Power Consumption": 4628125
+    },
+     "srlv":{      
+      "Power Consumption": 4628125
+    },
+     "srav":{      
+       "Power Consumption": 4628125
+    },
+    "addiu": {      
+      "Power Consumption": 6528125
+    },
+     "addi": {      
+       "Power Consumption": 6528125
+    },
+     "add": {      
+       "Power Consumption": 6528125
+    },
+     "slti": {      
+       "Power Consumption": 6528125
+    },
+     "sltiu": {      
+       "Power Consumption": 6528125
+    },
+     "andi": {      
+       "Power Consumption": 6528125
+    },
+     "ori": {      
+       "Power Consumption": 6528125
+    },
+     "xori": {      
+       "Power Consumption": 6528125
+    },
+    "sw": {         
+       "Power Consumption": 5928125
+    },
+     "sb": {         
+       "Power Consumption": 5928125
+    },
+     "sh": {         
+       "Power Consumption": 5928125
+    },
+    "nop":{
+        "Power Consumption": 1200000
+    },
+    "lw":{  
+       "Power Consumption": 6528125
+    },
+     "lb":{  
+       "Power Consumption": 6528125
+    },
+     "lbu":{  
+       "Power Consumption": 6528125
+    },
+     "lh":{  
+      "Power Consumption": 6528125
+    },
+     "lhu":{  
+       "Power Consumption": 6528125
+    },
+     "lui":{  
+      "Power Consumption": 6528125
+    },
+    "li":{
+       "Power Consumption": 6528125
+    },
+    "j":{
+      "Power Consumption": 5296250
+    },
+     "jal":{
+      "Power Consumption": 5296250
+    },
+    "beq":{
+       "Power Consumption": 2660940
+    },
+    "bne":{
+       "Power Consumption": 2660940
+    },
+    "blez":{
+      "Power Consumption": 2660940
+    },
+    "bgtz":{
+      "Power Consumption": 2660940
+    },
+    "move":{
+        "Power Consumption": 4328125
+      }
+  }

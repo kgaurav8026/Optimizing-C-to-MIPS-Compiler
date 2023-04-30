@@ -1,7 +1,6 @@
 {
 "add":{"write":[1], "read":[2,3]},
 "nop":{"write":[], "read":[]},
-"j":{"write":[], "read":[]},
 "sub":{"write":[1], "read":[2,3]},
 "addi":{"write":[1], "read":[2]},
 "addu":{"write":[1], "read":[2,3]},

@@ -6,6 +6,7 @@ from config import Constants
 import re
 import logging
 
+
 def get_next_reg(reg_list):
     next_reg = reg_list.pop(0)
     reg_list.append(next_reg)
